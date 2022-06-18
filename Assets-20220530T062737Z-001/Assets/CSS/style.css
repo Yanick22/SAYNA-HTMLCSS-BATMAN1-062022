@@ -1,0 +1,371 @@
+/* definisons la famille de police */
+
+@import URL('HTTPS://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;700&family=Space+Grotesk:wght@400;500;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --white-color: #ffffff;
+    --yellow-color: #ffff00;
+    --yellowlight-color: #f8f184;
+    --blue-color: #19587d;
+    --red-color: #b11313;
+    --black-color: #0D0E09;
+    --gradient-white: #ffffff75;
+    --gradient-red: #8900099a;
+    --gris-color: #c4c4c454;
+    --groove-color: #BCBBBD;
+}
+
+
+/* Définition des Bordures */
+
+.bordera {
+    color: white;
+    border-style: groove;
+    border: 2px solid var(--groove-color);
+    border-top: none;
+    margin-top: 0%;
+    margin-left: 6%;
+    margin-right: 6%;
+}
+
+.borderb {
+    color: white;
+    border-style: groove;
+    border: 2px solid var(--gris-color);
+    border-top: none;
+    border-bottom: none;
+    margin-left: 6%;
+    margin-right: 6%;
+}
+
+.borderc {
+    color: white;
+    border-style: groove;
+    border: 2px solid var(--gris-color);
+    border-top: none;
+    border-bottom: none;
+    margin-left: 6%;
+    margin-right: 6%;
+}
+
+
+/* definitions des polices */
+
+body {
+    background-color: #000000;
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 400;
+    text-size-adjust: 16px;
+    color: var(--white-color);
+}
+
+
+/* design de la navigation */
+
+nav {
+    font-family: 'Space Grotesk', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px 0;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    color: var(--white-color);
+    font-size: 25px;
+    font-weight: 500;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+
+/*texte a decoration et animation */
+
+nav ul a {
+    color: var(--white-color);
+    font-size: 25px;
+    font-weight: 500;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+nav ul a :hover {
+    color: var(--yellow-color);
+}
+
+
+/*Design Titre */
+
+h1 {
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    padding: 5% 0%;
+}
+
+h2 {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    padding: 5% 0%;
+}
+
+.btn {
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+    background: linear-gradient( 90deg, var(--gradient-white), var(--gradient-red));
+    width: 230px;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    margin: 10px 20px;
+}
+
+.btncolor {
+    background: linear-gradient( 90deg, var(--gradient-white);
+    var(--gradient-red));
+}
+
+#flecheheader {
+    display: block;
+    margin: 0 auto;
+    margin-top: 160px;
+    width: -10%;
+}
+
+.cta {
+    font-family: 'Space Grotesk', sans-serif;
+    display: flex;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+    margin: 5% 20% 15%;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    color: white;
+}
+
+
+/* Definition Container */
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+/* Design de la partie hero */
+
+#myhero {
+    background-image: url(../Illustrations/Bathome1.png);
+    background-color: var(--red-color);
+    height: 900px;
+    margin-top: -150px;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero-text {
+    display: inline-block;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    width: 60%;
+    text-align: center;
+    margin-top: 40%;
+    margin-left: 20%;
+    margin-right: 15%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: white;
+}
+
+.aside {
+    display: block;
+    width: 150px;
+    margin-left: 1258px;
+    margin-top: -450px;
+    background-color: transparent;
+}
+
+.aligner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    padding: 10px;
+    width: 5%;
+    height: 1%;
+}
+
+
+/* Le main */
+
+.texteh {
+    display: flex;
+    text-align: center;
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+
+/* Design de la section personnage */
+
+.batman-personnage {
+    display: flex;
+    justify-content: space-between;
+    padding: 5% 0%;
+}
+
+.legende {
+    display: block;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.img1 {
+    float: inline-end;
+    width: 8%;
+    height: 1%;
+    margin-left: -2%;
+    margin-top: 2%;
+}
+
+.habillage {
+    display: flex;
+    justify-content: start;
+}
+
+.paramain {
+    text-align: justify;
+    margin-right: 180px;
+}
+
+.habillage2 {
+    display: flex;
+    justify-content: end;
+    justify-content: space-between;
+}
+
+.img2 {
+    float: right;
+    width: 40%;
+    height: 30%;
+    margin-right: -15%;
+    margin-top: -15%;
+}
+
+.paramain2 {
+    text-align: justify;
+    margin-right: 200px;
+    margin-left: 200px;
+    padding-bottom: 60px;
+}
+
+.container2 {
+    width: 100%;
+    margin: -10px;
+}
+
+
+/* Design de la multimédia */
+
+.groupe {
+    width: 400px;
+    border: 1px solid #bcbbbd96;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 10px;
+    background: #727272;
+    line-height: 1.5;
+    display: inline-block;
+}
+
+.pgroupe {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 11px;
+    padding-top: 10px;
+    margin-top: 12px;
+}
+
+.img3 {
+    width: 60%;
+    height: 1%;
+    margin: 2%;
+}
+
+.imgmulti {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.multimediadesign {
+    display: flex;
+}
+
+.multimed {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 30px;
+    padding-bottom: 120px;
+}
+
+
+/* Design du formulaire */
+
+#formbox {
+    font-family: 'Rajdhani', sans-serif;
+    text-decoration: none;
+    background: #727272;
+    background-size: cover;
+    border-color: 2px #BCBBBD;
+    color: white;
+    padding: 15px 32px;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+}
+
+.titreform {
+    text-align: center;
+}
+
+
+/* Design de la section footer */
+
+.containerd {
+    display: flex;
+    margin: 100px;
+    justify-content: center;
+}
+
+.flexfooter {
+    display: flex;
+    justify-items: center;
+}
+
+.flexfooter>div {
+    align-items: center;
+    justify-content: space-around;
+    width: 10%;
+}
+
+.fontfooter {
+    font-size: 10px;
+    padding: 10px;
+}
